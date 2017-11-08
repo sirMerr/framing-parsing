@@ -13,10 +13,10 @@ This project normally has specs as shown on the following pages. In order to sav
 - [ ] Answer the following question in one sentence: in the byteArrayToDouble method, why is it necessary to zero out the most significant seven bytes of the long into which each array byte is cast, before shifting and ORing it with the others to produce the final long result? 
 
 Final documentation (per team) will consist of:
-1-a title page
-2-your answer to the byte reversal question
-3-your answer to the second question
-4-all of the above in an appropriate binder.
+1. a title page
+2. your answer to the byte reversal question
+3. your answer to the second question
+4. all of the above in an appropriate binder.
 
 ## More details
 You will work in assigned groups. All members of a group are expected to contribute more or less equally to the project and to be familiar with all of the work of the project. All group members must be present at the demonstration.
