@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.alessandrotrevortiffany</groupId>
+    <artifactId>tcpsystem</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Default value is jar but may be war or ear -->
+    <packaging>jar</packaging>
+
+    <!-- The name given to the project. Unlike groupId and artifactId a name
+    may have spaces. By default it is the following so it is optional -->
+    <name>${project.artifactId}</name>
+
+    <!-- Identifies the programmer or programmers who worked on the project -->
+    <developers>
+        <developer>
+            <id>1434872</id>
+            <name>Tiffany Le-Nguyen</name>
+            <email>letiffany.nguyen@gmail.com</email>
+        </developer>
+        <developer>
+            <id></id>
+            <name>Trevor Eames</name>
+            <email></email>
+        </developer>
+        <developer>
+            <id></id>
+            <name>Alessandro Ciotola</name>
+            <email></email>
+        </developer>
+    </developers>
+
+    <!-- The company or organization that the programmer(s) work for -->
+    <organization>
+        <name>Dawson</name>
+    </organization>
+
+    <!-- Global settings for the project. Settings can be accessed in the pom
+    by placing the tag name in ${...} ex. ${mainClass} -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <!-- class that has the main method -->
+        <mainClass>${project.groupId}.${project.artifactId}.MainAppFX</mainClass>
+    </properties>
+
+    <dependencies>
+
+        <!-- The dependency for the SLF4J Facade -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <!-- Binding for Log4J -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+        <!-- Logging Framework Dependency Uses the log4j2 library -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+    </dependencies>
+</project>
