@@ -60,3 +60,9 @@ The TCP/IP protocol standard specifies that all the bytes that make up an item m
 - [ ] At the receiving end, the protocol will have to parse the data (i.e. it will have to access the correct number of bytes, starting at the correct position, for each item before assembling those bytes into that item’s data type).
 
 It should be clear that accuracy in framing and parsing is absolutely essential to the proper operation of a protocol.
+
+Final documentation (per team) will consist of:
+
+1. a title page
+2. source listings of the client program and the server program, both of which are to include explanatory comments; on the day that you submit your documentation, you must also email your source code to your instructor
+3. all of the above in an appropriate binder.
