@@ -49,7 +49,7 @@ public class Server {
                             response[6] = doubleByte[5];
                             response[7] = doubleByte[6];
                             response[8] = doubleByte[7];
-                            response[9] = 2; //int
+                            response[9] = modifyInt(input[9]); //int
                             break;
                         // Game ended
                         case 1:
@@ -98,6 +98,7 @@ public class Server {
                     }
                 }
             }
+            clntSock.close();
         }
     }
 
