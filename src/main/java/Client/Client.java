@@ -59,7 +59,7 @@ public class Client {
                     for(int i = 0; i < 8; i++)
                         doubles[i] = input[i + 1];
                     double byteDouble = DoubleToBytes.byteArrayToDouble(doubles);
-                    System.out.println("Your number: " + byteDouble);
+                    System.out.println("Your numbers: " + byteDouble + " " + input[9]);
                     response[0] = getUserResponse();
                     response[1] = 0;
                     response[2] = 0;
