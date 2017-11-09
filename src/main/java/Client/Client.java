@@ -1,4 +1,4 @@
-package TSClient;
+package Client;
 
 public class Client {
 }

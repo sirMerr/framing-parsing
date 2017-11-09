@@ -1,4 +1,4 @@
-package TSServer;
+package Server;
 
 /**
  *  Converting a double to an eight-byte array and back to a double.
