@@ -1,4 +1,4 @@
-package Server;
+package Helpers;
 
 /**
  *  Converting a double to an eight-byte array and back to a double.
