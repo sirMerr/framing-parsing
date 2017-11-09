@@ -53,6 +53,7 @@ public class Server {
                             break;
                         // Game ended
                         case 1:
+                            keepGoing = false;
                             response[0] = 1;
                             response[1] = 0;
                             response[2] = 0;
